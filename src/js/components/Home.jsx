@@ -10,6 +10,7 @@ const Home = () => {
 
 
 	return (
+		
 		<div className="traffic-light">
 			<div className={`red ${color === "red" ? "active" : ""}`} onClick={() => setColor("red")}></div>
 			<div className={`yellow ${color === "yellow" ? "active" : ""}`} onClick={() => setColor("yellow")}></div>
